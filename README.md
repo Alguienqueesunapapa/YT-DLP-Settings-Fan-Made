@@ -1,18 +1,32 @@
 # YT-DLP-Settings
 Categories: [General Options](https://github.com/Alguienqueesunapapa/YT-DLP-Settings#general-options "General Options")
+
 [Network Options](https://github.com/Alguienqueesunapapa/YT-DLP-Settings#network-options "Network Options")
+
 [Geo-restriction](https://github.com/Alguienqueesunapapa/YT-DLP-Settings#geo-restriction "Geo-Restric")
+
 [Download Options](https://github.com/Alguienqueesunapapa/YT-DLP-Settings#download-options "Download Options")
+
 [Filesystem Options](https://github.com/Alguienqueesunapapa/YT-DLP-Settings#filesystem-options "Filesystem Options")
+
 [Tumbnail Options](https://github.com/Alguienqueesunapapa/YT-DLP-Settings#thumbnail-options "Tumbnail Options")
+
 [Internet Shortcut Options](https://github.com/Alguienqueesunapapa/YT-DLP-Settings#internet-shortcut-options "Internet Shortcut Options")
+
 [Verbosity and Simulation Options](https://github.com/Alguienqueesunapapa/YT-DLP-Settings#verbosity-and-simulation-options "Verbosity and Simulation Options")
+
 [Workarounds](https://github.com/Alguienqueesunapapa/YT-DLP-Settings#workarounds "Workarounds")
+
 [Video Format Options](https://github.com/Alguienqueesunapapa/YT-DLP-Settings#video-format-options "Video Format Options")
+
 [Subtitle Options](https://github.com/Alguienqueesunapapa/YT-DLP-Settings#subtitle-options "Subtitle Options")
+
 [Autentication Options](https://github.com/Alguienqueesunapapa/YT-DLP-Settings#authentication-options "Autentication Options")
+
 [Post-Processing Options](https://github.com/Alguienqueesunapapa/YT-DLP-Settings#post-processing-options "Post-Processing Options")
+
 [SponsorBlock Options](https://github.com/Alguienqueesunapapa/YT-DLP-Settings#sponsorblock-options "SponsorBlock Options")
+
 [Extractor Options](https://github.com/Alguienqueesunapapa/YT-DLP-Settings#extractor-options "Extractor Options")
 
 # General Options:
