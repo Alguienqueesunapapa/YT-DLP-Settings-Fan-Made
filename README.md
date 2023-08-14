@@ -1,6 +1,6 @@
 # YT-DLP-Settings
 Options:
-#General Options:
+# General Options:
     -h, --help                                                       Print this help text and exit
     --version                                                        Print program version and exit
     -U, --update                                                     Check if updates are available. You installed yt-dlp with pip or using the wheel from PyPi; Use that to update
@@ -42,7 +42,7 @@ Options:
                                                                      "-X" that takes an argument (ARG0) and expands to "-S=aext:ARG0,abr -x --audio-format ARG0". All defined aliases are listed in the --help
                                                                      output. Alias options can trigger more aliases; so be careful to avoid defining recursive options. As a safety measure, each alias may be
                                                                      triggered a maximum of 100 times. This option can be used multiple times
-#Network Options:
+# Network Options:
     --proxy URL                                                      Use the specified HTTP/HTTPS/SOCKS proxy. To enable SOCKS proxy, specify a proper scheme, e.g. socks5://user:pass@127.0.0.1:1080/. Pass in
                                                                      an empty string (--proxy "") for direct connection
     --socket-timeout SECONDS                                         Time to wait before giving up, in seconds
@@ -50,7 +50,7 @@ Options:
     -4, --force-ipv4                                                 Make all connections via IPv4
     -6, --force-ipv6                                                 Make all connections via IPv6
     --enable-file-urls                                               Enable file:// URLs. This is disabled by default for security reasons.
-#Geo-restriction:
+# Geo-restriction:
     --geo-verification-proxy URL                                     Use this proxy to verify the IP address for some geo-restricted sites. The default proxy specified by --proxy (or none, if the option is not
                                                                      present) is used for the actual downloading
     --xff VALUE                                                      How to fake X-Forwarded-For HTTP header to try bypassing geographic restriction. One of "default" (only when known to be useful), "never",
@@ -85,7 +85,7 @@ Options:
     --no-break-per-input                                             --break-on-existing and similar options terminates the entire download queue
     --skip-playlist-after-errors N                                   Number of allowed failures until the rest of the playlist is skipped
 
-  #Download Options:
+  # Download Options:
     -N, --concurrent-fragments N                                     Number of fragments of a dash/hlsnative video that should be downloaded concurrently (default is 1)
     -r, --limit-rate RATE                                            Maximum download rate in bytes per second, e.g. 50K or 4.2M
     --throttled-rate RATE                                            Minimum download rate in bytes per second below which throttling is assumed and the video data is re-extracted, e.g. 100K
@@ -121,7 +121,7 @@ Options:
     --downloader-args NAME:ARGS                                      Give these arguments to the external downloader. Specify the downloader name and the arguments separated by a colon ":". For ffmpeg,
                                                                      arguments can be passed to different positions using the same syntax as --postprocessor-args. You can use this option multiple times to give
                                                                      different arguments to different downloaders (Alias: --external-downloader-args)
-#Filesystem Options:
+# Filesystem Options:
     -a, --batch-file FILE                                            File containing URLs to download ("-" for stdin), one URL per line. Lines starting with "#", ";" or "]" are considered as comments and
                                                                      ignored
     --no-batch-file                                                  Do not read URLs from batch file (default)
@@ -168,17 +168,17 @@ Options:
                                                                      ${XDG_CACHE_HOME}/yt-dlp
     --no-cache-dir                                                   Disable filesystem caching
     --rm-cache-dir                                                   Delete all filesystem cache files
-#Thumbnail Options:
+# Thumbnail Options:
     --write-thumbnail                                                Write thumbnail image to disk
     --no-write-thumbnail                                             Do not write thumbnail image to disk (default)
     --write-all-thumbnails                                           Write all thumbnail image formats to disk
     --list-thumbnails                                                List available thumbnails of each video. Simulate unless --no-simulate is used
-#Internet Shortcut Options:
+# Internet Shortcut Options:
     --write-link                                                     Write an internet shortcut file, depending on the current platform (.url, .webloc or .desktop). The URL may be cached by the OS
     --write-url-link                                                 Write a .url Windows internet shortcut. The OS caches the URL based on the file path
     --write-webloc-link                                              Write a .webloc macOS internet shortcut
     --write-desktop-link                                             Write a .desktop Linux internet shortcut
-#Verbosity and Simulation Options:
+# Verbosity and Simulation Options:
     -q, --quiet                                                      Activate quiet mode. If used with --verbose, print the log to stderr
     --no-quiet                                                       Deactivate quiet mode. (Default)
     --no-warnings                                                    Ignore warnings
@@ -209,7 +209,7 @@ Options:
     --dump-pages                                                     Print downloaded pages encoded using base64 to debug problems (very verbose)
     --write-pages                                                    Write downloaded intermediary pages to files in the current directory to debug problems
     --print-traffic                                                  Display sent and read HTTP traffic
-#Workarounds:
+# Workarounds:
     --encoding ENCODING                                              Force the specified encoding (experimental)
     --legacy-server-connect                                          Explicitly allow HTTPS connection to servers that do not support RFC 5746 secure renegotiation
     --no-check-certificates                                          Suppress HTTPS certificate validation
@@ -221,7 +221,7 @@ Options:
                                                                      sleep-interval)
     --max-sleep-interval SECONDS                                     Maximum number of seconds to sleep. Can only be used along with --min-sleep-interval
     --sleep-subtitles SECONDS                                        Number of seconds to sleep before each subtitle download
-#Video Format Options:
+# Video Format Options:
     -f, --format FORMAT                                              Video format code, see "FORMAT SELECTION" for more details
     -S, --format-sort SORTORDER                                      Sort the formats by the fields given, see "Sorting Formats" for more details
     --format-sort-force                                              Force user specified sort order to have precedence over all fields, see "Sorting Formats" for more details (Alias: --S-force)
@@ -239,7 +239,7 @@ Options:
     -F, --list-formats                                               List available formats of each video. Simulate unless --no-simulate is used
     --merge-output-format FORMAT                                     Containers that may be used when merging formats, separated by "/", e.g. "mp4/mkv". Ignored if no merge is required. (currently supported:
                                                                      avi, flv, mkv, mov, mp4, webm)
-#Subtitle Options:
+# Subtitle Options:
     --write-subs                                                     Write subtitle file
     --no-write-subs                                                  Do not write subtitle file (default)
     --write-auto-subs                                                Write automatically generated subtitle file (Alias: --write-automatic-subs)
@@ -249,7 +249,7 @@ Options:
     --sub-langs LANGS                                                Languages of the subtitles to download (can be regex) or "all" separated by commas, e.g. --sub-langs "en.*,ja". You can prefix the language
                                                                      code with a "-" to exclude it from the requested languages, e.g. --sub-langs all,-live_chat. Use --list-subs for a list of available
                                                                      language tags
-#Authentication Options:
+# Authentication Options:
     -u, --username USERNAME                                          Login with this account ID
     -p, --password PASSWORD                                          Account password. If this option is left out, yt-dlp will ask interactively
     -2, --twofactor TWOFACTOR                                        Two-factor authentication code
@@ -264,7 +264,7 @@ Options:
     --client-certificate CERTFILE                                    Path to client certificate file in PEM format. May include the private key
     --client-certificate-key KEYFILE                                 Path to private key file for client certificate
     --client-certificate-password PASSWORD                           Password for client certificate private key, if encrypted. If not provided, and the key is encrypted, yt-dlp will ask interactively
-#Post-Processing Options:
+# Post-Processing Options:
     -x, --extract-audio                                              Convert video files to audio-only files (requires ffmpeg and ffprobe)
     --audio-format FORMAT                                            Format to convert the audio to when -x is used. (currently supported: best (default), aac, alac, flac, m4a, mp3, opus, vorbis, wav). You can
                                                                      specify multiple rules using similar syntax as --remux-video
@@ -330,7 +330,7 @@ Options:
                                                                      "before_dl" (before each video download), "post_process" (after each video download; default), "after_move" (after moving video file to it's
                                                                      final locations), "after_video" (after downloading and processing all formats of a video), or "playlist" (at end of playlist). This option
                                                                      can be used multiple times to add different postprocessors
-#SponsorBlock Options:
+# SponsorBlock Options:
     Make chapter entries for, or remove various segments (sponsor, introductions, etc.) from downloaded YouTube videos using the SponsorBlock API (https://sponsor.ajay.app)
 
     --sponsorblock-mark CATS                                         SponsorBlock categories to create chapters for, separated by commas. Available categories are sponsor, intro, outro, selfpromo, preview,
@@ -343,7 +343,7 @@ Options:
                                                                      end_time, category, categories, name, category_names. Defaults to "[SponsorBlock]: %(category_names)l"
     --no-sponsorblock                                                Disable both --sponsorblock-mark and --sponsorblock-remove
     --sponsorblock-api URL                                           SponsorBlock API location, defaults to https://sponsor.ajay.app
-#Extractor Options:
+# Extractor Options:
     --extractor-retries RETRIES                                      Number of retries for known extractor errors (default is 3), or "infinite"
     --allow-dynamic-mpd                                              Process dynamic DASH manifests (default) (Alias: --no-ignore-dynamic-mpd)
     --ignore-dynamic-mpd                                             Do not process dynamic DASH manifests (Alias: --no-allow-dynamic-mpd)
