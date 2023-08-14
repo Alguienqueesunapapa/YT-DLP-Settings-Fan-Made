@@ -1,5 +1,5 @@
 # YT-DLP-Settings
-Options:
+Categories: https://github.com/Alguienqueesunapapa/YT-DLP-Settings#general-options
 # General Options:
     -h, --help                                                       Print this help text and exit
     --version                                                        Print program version and exit
