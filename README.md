@@ -1,5 +1,6 @@
 # YT-DLP-Settings
-Categories: [Markdown Land](https://markdown.land "Markdown Land")
+Categories: [General Options](https://github.com/Alguienqueesunapapa/YT-DLP-Settings#general-options "General Options")
+[Networks Options](https://github.com/Alguienqueesunapapa/YT-DLP-Settings#network-options"Network Options")
 
 # General Options:
     -h, --help                                                       Print this help text and exit
